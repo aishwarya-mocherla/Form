@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(90deg,rgb(203, 231, 231),rgb(6, 168, 168)) ;
+}
+div.form{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1.3cm;
+    color:rgb(6, 168, 168);
+    background-color:white;
+    outline: none;
+    border-color: rgb(6, 168, 168);
+    border-radius:500mm;
+    text-align: center;
+    border-width: 20cm;
+    height: 20cm;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+form{
+    margin: auto;
+}
+input{
+    background-color: rgb(6, 168, 168);
+    border-radius: 3cm;
+    font-size:0.8cm;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white  ;
+    font-weight:normal;
+    
+}
+select{
+    background-color:  white;
+}
+div.tablee{
+   
+    text-align: center;
+    color:rgb(6, 168, 168) ;
+    font-size: 0.8cm;
+    margin:auto
+    color: rgb(83, 71, 71);
+    background-color:rgba(14, 11, 0, 0.5);
+    outline: none;
+    border-color: rgb(170, 142, 18);
+    border-radius:500mm;
+    border-width: 20cm;
+    height: 20cm;
+    width: 100%;
+    
+}
+table{
+    text-align: center;
+    margin: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}    
+td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+div.logo{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+}
