@@ -1,5 +1,10 @@
-body{
-    background-image: linear-gradient(90deg,rgb(203, 231, 231),rgb(6, 168, 168)) ;
+body {
+	/* background-image: linear-gradient(90deg, rgb(203, 231, 231), rgb(6, 168, 168)); */
+	background: linear-gradient(90deg, rgb(203, 231, 231), rgb(6, 168, 168)) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 div.form{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
