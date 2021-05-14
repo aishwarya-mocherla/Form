@@ -1,142 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="1.css">
-        
-    </head>
-    <body>
-        <div class="form">
 
-        
-        
-                <h1>FORM</h1>
-                <label>NAME:</label>
-                <input><br>
-                <label>DATE OF BIRTH:</label>
-                <input type="date"><br>
-                <label>CITY:</label>
-                <input><br>
-                <label>PH.NO:</label>
-                <input type="number"><br>
-                <label>email:</label>
-                <input type="email"><br>
-                <form action="" method="get">
-                    <label for="">BRANCH:</label>
-                    <input list="branches" name="branch" id="branch">
-                    <datalist id="branches">
-                      <option value="CSE">
-                      <option value="Mechanical">
-                      <option value="A.I">
-                      <option value="Civil">
-                    </datalist><br>  
-                <label for="Section">SECTION:</label>
-                <select name="Section" id="Section">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="1.css">
+
+</head>
+
+<body>
+
+    <div class="form">
+        <h1>FORM</h1>
+        <label>NAME:</label>
+        <input type="text" name="n"><br>
+        <label>DATE OF BIRTH:</label>
+        <input type="date" name="d"><br>
+        <label>CITY:</label>
+        <input type="text" name="c"><br>
+        <label>PH.NO:</label>
+        <input type="number" name="num"><br>
+        <label>email:</label>
+        <input type="email" name="em"><br>
+        <form action="" method="get">
+            <label for="">BRANCH:</label>
+            <input list="branches" name="branch" id="branch">
+            <datalist id="branches">
+                <option value="CSE">
+                <option value="Mechanical">
+                <option value="A.I">
+                <option value="Civil">
+            </datalist><br>
+            <label for="Section">SECTION:</label>
+            <select name="Section" id="Section">
                 <option value="A1">A1</option>
                 <option value="A2">A2</option>
                 <option value="B1">B1</option>
                 <option value="B2">B2</option>
-                </select>
-                <br>
-                <input type="submit" stle size="5cm">     </textarea>
-             
-        </form></div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+            </select>
+            <br>
+            <input type="submit" stle size="5cm" onclick="window.alert(fin)"> </textarea>
+
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
         <div class="tablee" style=" background-color:white">
             <h1>TABLE</h1>
             <br>
-        <table style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"> 
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Date Of Birth</th>
-                    <th>City</th>
-                    <th>Ph.No</th>
-                    <th>email</th>
-                    <th>Branch</th>
-                    <th>Section</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Nidhi</td>
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                </tr>
-                <tr>
-                    <td>Jiya</td>
-                    <td>19/4/01</td>
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                </tr>
-                <tr>
-                    <td>Jai</td>
-                    <td>20/7/01</td>
-                    <td>Kolkata</td>
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                </tr>
-                <tr>
-                    <td>Christina</td>
-                    <td>11/5/01</td>
-                    <td>Chennai</td>
-                    <td>1296573953</td>
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                </tr>
-                <tr>
-                    <td>Bharti</td>
-                    <td>20/11/01</td>
-                    <td>Banglore</td>
-                    <td>1248875222</td>
-                    <td>bharti@gmail.com</td>
-                    <!--<td>B2</td>-->
-                    <!--<td>B2</td>-->
-                </tr>
-                <tr>
-                    <td>Vijay</td>
-                    <td>1/6/01</td>
-                    <td>Delhi</td>
-                    <td>1234567896</td>
-                    <td>Vijay@gmail.com</td>
-                    <td>CSE</td>
-                    <!--<td>B2</td>-->
-                </tr>
-                <tr>
-                    <td>David</td>
-                    <td>10/5/01</td>
-                    <td>Kochi</td>
-                    <td>1234567896</td>
-                    <td>David@gmail.com</td>
-                    <td>A.I</td>
-                    <td>A1</td>
-                </tr>
-            </tbody>
+            <table
+                style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date Of Birth</th>
+                        <th>City</th>
+                        <th>Ph.No</th>
+                        <th>email</th>
+                        <th>Branch</th>
+                        <th>Section</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nidhi</td>
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                    </tr>
+                    <tr>
+                        <td>Jiya</td>
+                        <td>19/4/01</td>
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                    </tr>
+                    <tr>
+                        <td>Jai</td>
+                        <td>20/7/01</td>
+                        <td>Kolkata</td>
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                    </tr>
+                    <tr>
+                        <td>Christina</td>
+                        <td>11/5/01</td>
+                        <td>Chennai</td>
+                        <td>1296573953</td>
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                    </tr>
+                    <tr>
+                        <td>Bharti</td>
+                        <td>20/11/01</td>
+                        <td>Banglore</td>
+                        <td>1248875222</td>
+                        <td>bharti@gmail.com</td>
+                        <!--<td>B2</td>-->
+                        <!--<td>B2</td>-->
+                    </tr>
+                    <tr>
+                        <td>Vijay</td>
+                        <td>1/6/01</td>
+                        <td>Delhi</td>
+                        <td>1234567896</td>
+                        <td>Vijay@gmail.com</td>
+                        <td>CSE</td>
+                        <!--<td>B2</td>-->
+                    </tr>
+                    <tr>
+                        <td>David</td>
+                        <td>10/5/01</td>
+                        <td>Kochi</td>
+                        <td>1234567896</td>
+                        <td>David@gmail.com</td>
+                        <td>A.I</td>
+                        <td>A1</td>
+                    </tr>
+                </tbody>
 
-        </table>
+            </table>
         </div>
-        <div class="logo">
+    </div>
+    <div class="logo">
         <footer>
-                <a href="https://www.srmist.edu.in/" target="_blank"><abbr title="SRM Institute Of Science And Technology"><img src="https://pbs.twimg.com/profile_images/957236316491649024/wbzKHuoC_400x400.jpg" alt="Click here to visit SRMIST official website" width="80" height="80"></abbr></a>
+            <a href="https://www.srmist.edu.in/" target="_blank"><abbr
+                    title="SRM Institute Of Science And Technology"><img
+                        src="https://pbs.twimg.com/profile_images/957236316491649024/wbzKHuoC_400x400.jpg"
+                        alt="Click here to visit SRMIST official website" width="80" height="80"></abbr></a>
         </footer>
-        </div>
-    </body>
+    </div>
+    <script>
+        var fin = "Form Submitted";
+    </script>
+
+
+
+</body>
+
 </html>
